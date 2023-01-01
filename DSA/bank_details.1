@@ -1,0 +1,62 @@
+#include<stdio.h>
+#include<string.h>
+
+struct Bank
+{
+	char name[25];
+	long accNo;
+	char IFSC[25];
+	float amount;
+};
+
+void input(struct Bank *b,int n,int i)
+{
+		printf("   account %d details \n",i+1);
+		fflush(stdin);
+		printf("enter account holder name : ");
+		gets(b[i].name);
+		
+		printf("enter account number : ");
+		scanf("%d",&b[i].accNo);
+		fflush(stdin);
+		printf("enter bank's IFSC code : ");
+		gets(b[i].IFSC);
+		
+		printf("enter amount : ");
+		scanf("%f",&b[i].amount);
+		
+		printf("\n");
+}
+
+void display(struct Bank *b,int n,int i)
+{
+		printf("-------account details--------\n");
+		
+		printf("name : %s \n",b[i].name);
+		printf("account number : %d \n",b[i].accNo);
+		printf("IFSC code : %s \n",b[i].IFSC);
+		printf("amount : %f \n",b[i].amount);
+		
+		printf("--------------------------------\n");
+	
+}
+
+int main()
+{
+	int n;
+	printf("enter number of accounts :\n");
+	scanf("%d",&n);
+	
+	struct Bank b[n];
+	
+	for(int i=0;i<n;i++)
+	{
+		input(b,n,i);
+	}
+	
+	for(int i=0;i<n;i++)
+	{
+		display(b,n,i);
+	}
+	
+}
