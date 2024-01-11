@@ -1,4 +1,4 @@
-# DSA Day-
+# DSA Day-1
 
 ## Topic: LinkedList
 ### Problem statement: Modular Node
