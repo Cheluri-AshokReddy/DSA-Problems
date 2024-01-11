@@ -26,6 +26,7 @@ class GfG
 ```
 
 ### Theory:
+## Steps to Solve problem
 ### Initialization (Step 1):
 
 ans is initialized to -1, which will be the default value returned if no modular node is found.
