@@ -1,7 +1,7 @@
 # DSA Day-5
 
 ## Topic: Tree
-### Problem statement: Print all nodes that don't have sibling
+### Problem statement:Print all nodes that don't have sibling
 ## Solution:
 ```java
 class Tree
