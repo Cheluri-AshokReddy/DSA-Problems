@@ -1,5 +1,4 @@
 # DSA Day-8
-
 ## Topic: BinaryTree
 ### Problem statement:Reverse Level Order Traversal
 ## Solution:
@@ -8,7 +7,7 @@ class Tree
 {
     public ArrayList<Integer> reverseLevelOrder(Node node) 
     {
-        // code here
+        
         ArrayList<Integer>arr=new ArrayList<>();
         Queue<Node>q=new LinkedList<>();
         Stack<Integer>st=new Stack<>();
@@ -31,5 +30,3 @@ class Tree
         return arr;
     }
 }
-
-```
