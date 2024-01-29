@@ -1,4 +1,4 @@
-# DSA Day-Day-12
+# DSA Day-12
 
 ## Topic: HashMap
 ### Problem statement: Contains Duplicate II
