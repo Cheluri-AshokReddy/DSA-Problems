@@ -1,4 +1,4 @@
-# DSA Day-Day-13
+# DSA Day-13
 
 ## Topic:String
 ### Problem statement:Remove Trailing Zeros From a String
